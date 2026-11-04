@@ -13,6 +13,7 @@
 
 - No hay convenciones de código establecidas todavía.
 - Al introducir un stack, documenta aquí los comandos de instalación, build, lint, typecheck y test.
+- El contexto por temática para agentes vive en `docs/agents-context/`. Lee el documento del área antes de trabajar y mantenlo actualizado.
 
 ## Working agreements
 

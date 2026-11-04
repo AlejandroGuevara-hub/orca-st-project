@@ -1,0 +1,81 @@
+# Entorno y secretos
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Dependencias
+node_modules/
+vendor/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+coverage/
+.coverage
+htmlcov/
+
+# Build y artefactos
+dist/
+build/
+out/
+target/
+bin/
+obj/
+*.exe
+*.dll
+*.so
+*.dylib
+*.class
+*.jar
+*.war
+
+# Logs y temporales
+*.log
+logs/
+tmp/
+temp/
+.cache/
+*.tmp
+*.swp
+*~
+
+# Datos y dumps
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.bak
+data/local/
+
+# Editores e IDE
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.iml
+*.suo
+*.user
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Testing
+.playwright/
+.cypress/
+test-results/
+playwright-report/
+
+# Otros
+.next/
+.nuxt/
+.turbo/
+.vercel/
